@@ -1,71 +1,55 @@
+# Book Manager
 
-# Gerenciador de Livros
+A **Book Manager** built with Laravel, for managing book information.
 
-Este projeto é um **Gerenciador de Livros** construído com Laravel, destinado a facilitar a gestão de informações sobre livros.
+## Requirements
 
-## Pré-requisitos
+Before starting, make sure you have installed:
 
-Antes de começar, certifique-se de ter instalado:
-
-- [PHP](https://www.php.net/downloads) (versão 7.3 ou superior)
+- [PHP](https://www.php.net/downloads) (version 7.3 or higher)
 - [Composer](https://getcomposer.org/download/)
 
-## Instalação
+## Setup
 
-Siga os passos abaixo para configurar o projeto:
-
-### 1. Clone o repositório
-
-Clone este repositório em sua máquina local:
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/lucianookdp/GerenciadorLivros.git
-cd GerenciadorLivros
+git clone https://github.com/lucianookdp/book-manager-laravel.git
+cd book-manager-laravel
 ```
 
-### 2. Instale as dependências
-
-Instale as dependências do projeto usando Composer:
+### 2. Install dependencies
 
 ```bash
 composer install
 ```
 
-### 3. Configure o ambiente
+### 3. Configure the environment
 
-1. Renomeie o arquivo `.env.example` para `.env`.
-2. Abra o arquivo `.env` e configure suas credenciais de banco de dados.
+1. Rename `.env.example` to `.env`.
+2. Open `.env` and set your database credentials.
 
-### 4. Gere a chave do aplicativo
-
-Execute o seguinte comando para gerar a chave de aplicativo:
+### 4. Generate the app key
 
 ```bash
 php artisan key:generate
 ```
 
-### 5. Execute as migrações
-
-Se o projeto usar um banco de dados, execute as migrações para criar as tabelas necessárias:
+### 5. Run migrations
 
 ```bash
 php artisan migrate
 ```
 
-### 6. Inicie o servidor local
-
-Inicie o servidor de desenvolvimento do Laravel:
+### 6. Start the local server
 
 ```bash
 php artisan serve
 ```
 
-Agora, você pode acessar o projeto em seu navegador através do endereço [http://localhost:8000](http://localhost:8000).
+Open [http://localhost:8000](http://localhost:8000) in your browser.
 
-## Licença
+## License
 
-Este projeto possui direitos autorais. Não é permitido copiar ou distribuir sem autorização.
-
----
-
-Sinta-se à vontade para contribuir com melhorias!
+All rights reserved. Copying or redistributing without authorization is not
+permitted.
